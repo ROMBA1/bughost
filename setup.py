@@ -9,7 +9,7 @@ setup(
     author_email='Mahboubmillion6@gmail.com,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sanjai-AK47/Subdominator",
+    url="https://github.com/ROMBA1/bughost",
     description='Subdominator - An ultimate subdomain enumeration tool',
     packages=find_packages(),
     install_requires=[
