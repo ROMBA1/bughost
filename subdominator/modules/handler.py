@@ -227,9 +227,9 @@ async def _domain_handler_(domain):
             print(f"[{bold}{blue}INFO{reset}]: {bold}{white}Total {len(final)} subdomains found for {domain} in {total_time:.2f} seconds{reset}", file=sys.stderr)
         
         if args.no_color:
-            print(f"[WISH]: Happy Hacking {username} ☠️ 🔥 🚀", file=sys.stderr)
+            print(f"[WISH]: SSLHTUNNELMAX {username} ☠️ 🔥 🚀", file=sys.stderr)
         else:
-            print(f"[{bold}{green}WISH{reset}]: {bold}{white}Happy Hacking {username} ☠️ 🔥 🚀{reset}", file=sys.stderr)
+            print(f"[{bold}{green}WISH{reset}]: {bold}{white}SSLHTUNNELMAX {username} ☠️ 🔥 🚀{reset}", file=sys.stderr)
 
     except KeyboardInterrupt as e:
         SystemExit
