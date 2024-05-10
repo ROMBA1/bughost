@@ -18,11 +18,11 @@ random_color = random.choice(colors)
 
 
 def banner():
-    tool_name = "subdominator"
+    tool_name = "bug finder"
     fonts = ["big", "ogre", "shadow", "script",  "graffiti", "slant"]
     selected_font = random.choice(fonts)
     banner = text2art(f"{tool_name}", font=selected_font)
     banner = f"""{bold}{random_color}{banner}{reset}
-                     {bold}{white}@RevoltSecurities{reset}\n"""
+                     {bold}{white}@SSLHTUNNELMAX{reset}\n"""
     return banner
 
